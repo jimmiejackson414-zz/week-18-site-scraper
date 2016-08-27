@@ -51,7 +51,8 @@ h2 {
 }
 
 .jumbotron {
-	background-color: #006b3a;
+	background-color: rgba(0, 107, 58, 0.7);
+	
 }
 
 #subheader {
