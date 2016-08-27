@@ -20,7 +20,8 @@ app.use(bodyParser.urlencoded({
 app.use(express.static('public'));
 
 // database configuration with mongoose
-mongoose.connect('mongodb://localhost/onionScraper');
+mongoose.connect('mongodb://heroku_rdh0251f:mlfjfda13205s38p5mtuom246j@ds017726.mlab.com:17726/heroku_rdh0251f');
+// mongoose.connect('mongodb://localhost/onionScraper');
 var db = mongoose.connection;
 
 // show any mongoose errors
